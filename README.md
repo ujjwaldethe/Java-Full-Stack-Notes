@@ -7,33 +7,17 @@ This repository contains the learning materials, assignments, and projects compl
 📂 Folder Structure
 
 - **Day 1**: Introduction to Java, basic concepts, and environment setup.
-- **Day 2**: OOP concepts, class, objects, and basic programs.
-- **Day 3**: Practice assignments and exercises.
+- **Day 2**: ....
+- **Day 3**: ....
 
 ---
 
 🛠 Technologies Used
 
 - **Programming Language**: Java
-- **IDE**: IntelliJ IDEA / Eclipse
+- **IDE**: Notepad
 - **Version Control**: Git
-- **Platform**: Windows / Linux
-
----
-
-💡 Key Topics Covered
-
-1. **Core Java**:
-   - Data types, loops, and conditionals.
-   - Object-Oriented Programming concepts.
-2. **Collections Framework**:
-   - List, Set, Map.
-3. **Java Development**:
-   - Writing and running Java programs.
-   - Handling exceptions.
-4. **Full Stack Concepts**:
-   - Basics of front-end and back-end development.
-   - Introduction to databases and frameworks.
+- **Platform**: Windows.
 
 ---
 
