@@ -6,9 +6,13 @@ This repository contains the learning materials, assignments, and projects compl
 
 📂 Folder Structure
 
-- **Day 1**: Introduction to Java, basic concepts, and environment setup.
-- **Day 2**: ....
-- **Day 3**: ....
+- **Day 1**: Introduction to Computer, What Is Hardware And Software.
+- **Day 2**: What is language.
+- **Day 3**: History Of Language, Platform Dependent & Independent. 
+- **Day 4**: Why Software's Made Using C/C++ Or java, JDk Architecture, JRE, JVM.
+- **Day 5**: Steps To Create, Compile And Execute Java Programs, Basics Commands Of Command Line Interface, Structure Of Java Programs.
+
+
 
 ---
 
