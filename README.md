@@ -1,4 +1,4 @@
-QSpiders Java Full Stack
+🕷️ QSpiders Java Full Stack
 
 This repository contains the learning materials, assignments, and projects completed during the **QSpiders Full Stack Java** course. The content is organized by days to track progress and activities.
 
