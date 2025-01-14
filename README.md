@@ -1,9 +1,3 @@
-🕷️ QSpiders Java Full Stack
-
-This repository contains the learning materials, assignments, and projects completed during the **QSpiders Full Stack Java** course. The content is organized by days to track progress and activities.
-
----
-
 📂 Folder Structure
 
 - **Day 1**: Introduction to Computer, What Is Hardware And Software.
@@ -12,9 +6,6 @@ This repository contains the learning materials, assignments, and projects compl
 - **Day 4**: Why Software's Made Using C/C++ Or java, JDk Architecture, JRE, JVM.
 - **Day 5**: Steps To Create, Compile And Execute Java Programs, Basics Commands Of Command Line Interface, Structure Of Java Programs.
 - **Day 6**: Tokens, Rules For Naming Identifiers, Conventions.
-
-
-
 
 ---
 
