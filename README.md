@@ -22,4 +22,4 @@
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/ujjwaldethe/QSpiders-Java-Full-Stack.git
+   git clone https://github.com/ujjwaldethe/Java-Full-Stack-Notes.git
