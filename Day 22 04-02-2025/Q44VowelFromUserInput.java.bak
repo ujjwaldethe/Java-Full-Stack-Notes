@@ -10,7 +10,7 @@ class Q44VowelFromUserInput
 		for(int i = 0; i<name.length();i++)
 		{
 			char ch = name.charAt(i);
-			if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u'||ch=='A'||ch=='E'||ch=='I'||ch=='O'||ch=='U')
+			if(name.charAt(i)=='a'||name.charAt(i)=='e'||name.charAt(i)=='i'||name.charAt(i)=='o'||name.charAt(i)=='u'||name.charAt(i)=='A'||name.charAt(i)=='E'||name.charAt(i)=='I'||name.charAt(i)=='O'||name.charAt(i)=='U')
 			{
 				System.out.print(name.charAt(i)+" ");
 			}
