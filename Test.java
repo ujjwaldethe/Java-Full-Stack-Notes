@@ -2,11 +2,14 @@ class Test
 {
 	public static void main(String[] args) 
 	{
-		System.out.println("This Class If For Testing Codes");
-		for(int i=2;i<=100;i+=2)
+		try
 		{
-			int res = 2 ;
-			System.out.println(i);
+			Class.forName("com.mysql.cj.jdbc.Driver");
+			System.out.println("Driver Loaded Successfully");
+		}
+		catch(ClassNotFoundException e)
+		{
+			e.printStackTrace();
 		}
 	}
 }

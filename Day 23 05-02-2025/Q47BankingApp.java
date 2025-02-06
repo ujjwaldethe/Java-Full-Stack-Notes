@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.ArrayList;
 import java.util.Iterator;
-class BankingApp 
+class Q47BankingApp 
 {
 	public static void main(String[] args) throws Exception
 	{
@@ -69,7 +69,7 @@ class BankingApp
 									{
 										System.out.println("ENTER AMOUNT : ");
 										amt = sc.nextDouble();
-										arr="DEPOSIT : "+amt;
+										arr=" DEPOSIT : "+amt;
 										statement[s]=arr;
 										al.add(arr);//Advance Java Concept Skip It
 										s++;
@@ -235,7 +235,15 @@ class BankingApp
 		        System.out.println("ENTER AMOUNT : ");
 				systemBalance = sc.nextDouble();
 
+
+				
 				System.out.println("ACCOUNT CREATED SUCCESSFULLY");
+				System.out.println("UserName : "+systemUsername);
+				System.out.println("Password : "+systemPassword);
+				System.out.println("Address  : "+systemAddress);
+				System.out.println("Mobile No: "+systemNumber);
+				System.out.println("Amount   : "+systemBalance);
+				
 				System.out.println("PLEASE LOGIN TO CONTINUE");
 				Thread.sleep(3000);
 
