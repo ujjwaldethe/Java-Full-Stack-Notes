@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class Q45ReverseNumberUsingLoops
+class PractiseReverseNumberUsingLoops
 {
 	public static void main(String[] args) 
 	{

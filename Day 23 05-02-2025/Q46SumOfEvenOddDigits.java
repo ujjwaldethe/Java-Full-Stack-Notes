@@ -1,30 +1,23 @@
 import java.util.Scanner;
-class Q45ReverseNumberUsingLoops
+class Q46SumOfEvenOddDigits
 {
 	public static void main(String[] args) 
 	{
 		System.out.println(" Enter Number : ");
 		int num = new Scanner(System.in).nextInt();
-		<!-- for(int i = num ;i>0; i=i/10)
-		{
-			System.out.print(i);
-		} -->
+		
 		boolean flag = false;
 		int temp = num;
+		int rem = 0, even =0, odd = 0;
 		if(num<0)
 		{
 			num = Math.abs(num);
 			flag=true;
 		}
-		int rev = 0;
-		int rem = 0; 
-		int sum = 0;
-		int even =0;
-		int odd = 0;
 		while(num>0)
 		{
 
-			rem =num%10;
+			rem = num%10;
 			if(rem%2==0)
 			{
 				even+=rem;
@@ -33,14 +26,12 @@ class Q45ReverseNumberUsingLoops
 			{
 				odd+=rem;
 			}
-			rev =(rev*10)+ rem ;
-			sum +=rem;
 			num /= 10;
 		}
 		if(flag)
 		{
 			rev=-rev;
 		}
-		System.out.println("\nNumber : "+temp+"\nReversed Num : "+rev+"\nSum Of Digits : "+sum+"\nEven Sum : "+even+"\nOdd Sum : "+odd);
+		System.out.println("\nNumber : "+temp+"\nEven Sum : "+even+"\nOdd Sum : "+odd);
 	}
 }
