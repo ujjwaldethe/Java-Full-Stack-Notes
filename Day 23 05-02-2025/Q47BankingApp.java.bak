@@ -171,9 +171,7 @@ class Q47BankingApp
 												System.out.print("\033[H\033[2J"); 
 												System.out.flush();
 												int start = s;  
-												for (int m = 0; m < 5; m++) 
-												{
-													
+												for (int m = 0; m < 5; m++) {
 													int index = (start + m) % 5; 
 													if (statement[index] != null) 
 													{

@@ -1,0 +1,10 @@
+import java.util.Scanner;
+class Q59PalindroneLeetCode 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Enter String : ");
+		String name = new Scanner(System.in).next();
+		int first = 0 
+	}
+}
