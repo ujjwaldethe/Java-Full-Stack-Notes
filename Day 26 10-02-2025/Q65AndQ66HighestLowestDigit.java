@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class Q65HighestDigit
+class Q65AndQ66HighestLowestDigit
 {
 	public static void main(String[] args) 
 	{
@@ -19,7 +19,8 @@ class Q65HighestDigit
 			}
 			num/=10;
 		}
-		System.out.println("Max Digit In A Number : "+max);
+		System.out.println("Higest Digit In A Number : "+max);
+		System.out.println("Lowest Digit In A Number : "+min);
 		
 	}
 }
