@@ -6,47 +6,46 @@ class Q72PrimePlusAndMinusPrint
 		boolean flag = false;
 		Scanner sc = new Scanner(System.in);
 		System.out.println("\nEnter Number : ");
-		int num = sc.nextInt();
-		int temp = num;
-		int sub = num;
+		int num = sc.nextInt();//7
+		int temp1 = num;//7
+		int temp2 = num;//7
 		int add1,add2;
-		num--;
-		temp++;
-		for(int i = 2 ; i<num ; i++)
+		temp1--;//6 5
+		temp2++;//8
+		for(int i = 2 ; i<temp1 ; i++)//6 //5
 		{
 			flag = false;
-			if(num%i==0)
+			if(temp1%i==0)
+			{
 				flag=true;
-			if(flag)
-			{
-				i = 2;
-				num--;
+				i = 1;
+				temp1--;
 			}
 		}
-		for(int i = 2 ; i<temp ; i++)
+		for(int i = 2 ; i<temp2 ; i++)
 		{
 			flag = false;
-			if(temp%i==0)
-				flag=true;	
-			if(flag)
+			if(temp2%i==0)
 			{
-				i = 2;
-				temp++;
-			}
+				flag=true;
+				i = 1;
+				temp2++;
+			}				
 		}
-		add1 = sub-num; // subtract 
-		add2 = temp-sub; //subtract
-		if(add1<add2)
-			System.out.println("Prime Number : "+num);
+		add1 = num-temp1; // subtract 
+		add2 = temp2-num; //subtract
+		if(add1==1)
+			System.out.println("Prime Number :"+temp2);
+		else if(add1<add2)
+			System.out.println("Prime Number : "+temp1);
 		else if(add2<add1)
-			System.out.println("Prime Number : "+temp);
-		else if(add1==1)
-			System.out.println("Prime Number :"+temp);
+			System.out.println("Prime Number : "+temp2);
 		else if(add1==add1)
-			System.out.println("Prime Number : "+num+" "+temp);
-		if(num==1)
-			System.out.println("Previous Prime Number : "+0+" Next Prime Number : "+temp);
+			System.out.println("Prime Number : "+temp1+" "+temp1);
+		
+		if(temp1==1 || temp1==2)
+			System.out.println("Next Prime Number : "+temp2);
 		else
-			System.out.println("Previous Prime Number : "+num+" Next Prime Number : "+temp);
+			System.out.println("Previous Prime Number : "+temp1+" Next Prime Number : "+temp2);
 	}
 }
