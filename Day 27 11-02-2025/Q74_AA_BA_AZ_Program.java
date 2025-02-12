@@ -6,7 +6,6 @@ class Q74_AA_BA_AZ_Program
 		System.out.println("Enter String : ");
 		String name = new Scanner(System.in).next().toUpperCase();
 		int res = 0;
-		int v = 0;
 		int count = 26;
 		if(name.length()==1)
 		{
