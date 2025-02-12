@@ -15,7 +15,7 @@ class Q74_AA_BA_AZ_Program
 		{
 			for(char ch = 'A' ; ch<= 'Z' ; ch++)
 			{
-				if(name.charAt(0)==ch)
+				if(name.charAt(0)==ch) //AA
 				{
 					break;
 				}
