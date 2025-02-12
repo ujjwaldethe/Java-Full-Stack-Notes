@@ -9,10 +9,10 @@ class Q71MakeNumberPrime
 		int num = sc.nextInt();
 		if(num==1)
 			num++;
-		for(int i = 2 ; i<num ; i++) // 9 10 11 
+		for(int i = 2 ; i<num ; i++) // 11 
 		{
 			flag = false;
-			if(num%i==0) // 10%2==0 
+			if(num%i==0) // 11/4....10
 			{
 				flag=true;
 				i = 1;
