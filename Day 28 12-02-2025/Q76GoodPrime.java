@@ -8,8 +8,7 @@ class Q76GoodPrime
 		int count = 0;
 		for(int i=2;i<=num;i++) 
 		{
-			if(i<2)
-				continue;
+			
 			boolean flag = true;
 			for(int j=2 ; j<i ; j++)
 			{
@@ -23,29 +22,20 @@ class Q76GoodPrime
 			{	
 				int temp = i;
 				System.out.println("prime : "+temp);
-				flag = true;
-				label:
 				while(temp>0)
 				{
 					flag=true;
 					int rem = temp%10;
-					if(rem==1)
+					if(rem!=2&&rem!=3&&rem!=5&&rem!=7)
 					{
 						flag=false;
-						break label;
-					}
-					for(int j = 2 ; j<rem ; j++)
-					{
-						if(rem%j==0)
-						{
-							flag = false;
-							break label;
-						}
+						break;
 					}
 					temp/=10;
 				}
 				if(flag)
 				{
+					System.out.println("Good Prime : "+i);
 					count++;		
 				}
 			}

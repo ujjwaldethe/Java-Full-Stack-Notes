@@ -9,7 +9,7 @@ class Q77_144_2197_197_3375_256
 		int res ;
 		for(int i = 12; i <= (n+12) ; i++)
 		{
-			System.out.print(((i%2==0)?i*i:i*i*i)+" ");
+			System.out.print((res = (i%2==0)?i*i:i*i*i)+" ");
 		}
 	}
 }

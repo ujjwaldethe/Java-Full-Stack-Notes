@@ -1,0 +1,22 @@
+import java.util.Scanner;
+class Q83Fibonacci
+{
+	public static void main(String[] args) 
+	{
+		System.out.print("Enter Range : ");
+		int num = new Scanner(System.in).nextInt();
+		int a = 0, b = 1;
+		for(int i=0;i<=num;i++) 
+		{
+				if(i==0 || i==1)
+				{	
+					System.out.print(i+" ");
+					continue;
+				}
+				System.out.print((a+b)+" ");
+				int temp = a; 
+				a = b ; // 0(1)
+				b = temp+b; // 0+1(1)
+		}
+	}
+}

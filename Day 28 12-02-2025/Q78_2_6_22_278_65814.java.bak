@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class Sample2 
+class Q78_2_6_22_278_65814
 {
 	public static void main(String[] args) 
 	{
@@ -14,7 +14,7 @@ class Sample2
 		{
 			for(int j = 1 ; j<=pow;j++)
 			{
-				powRes*=two;
+				powRes*=2;
 			}	
 			System.out.print(prev+" ");
 			prev=powRes+prev;

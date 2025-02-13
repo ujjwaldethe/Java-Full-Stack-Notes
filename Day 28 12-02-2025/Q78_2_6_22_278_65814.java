@@ -3,7 +3,6 @@ class Q78_2_6_22_278_65814
 {
 	public static void main(String[] args) 
 	{
-		int two = 2;
 		int pow = 1 ;
 		long prev = 2;
 		System.out.print("\nEnter Range : ");
@@ -14,7 +13,7 @@ class Q78_2_6_22_278_65814
 		{
 			for(int j = 1 ; j<=pow;j++)
 			{
-				powRes*=two;
+				powRes*=2;
 			}	
 			System.out.print(prev+" ");
 			prev=powRes+prev;
