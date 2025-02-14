@@ -12,6 +12,8 @@ class Q72PrimePlusAndMinusPrint
 		int add1,add2;
 		temp1--;//6 5
 		temp2++;//8
+		if(temp1==1 ||temp1==0)
+			temp1=2;
 		for(int i = 2 ; i<temp1 ; i++)//6 //5
 		{
 			flag = false;
@@ -40,12 +42,9 @@ class Q72PrimePlusAndMinusPrint
 			System.out.println("Prime Number : "+temp1);
 		else if(add2<add1)
 			System.out.println("Prime Number : "+temp2);
-		else if(add1==add1)
+		else if(add1==add2)
 			System.out.println("Prime Number : "+temp1+" "+temp1);
-		
-		if(temp1==1 || temp1==2)
-			System.out.println("Next Prime Number : "+temp2);
-		else
+	
 			System.out.println("Previous Prime Number : "+temp1+" Next Prime Number : "+temp2);
 	}
 }

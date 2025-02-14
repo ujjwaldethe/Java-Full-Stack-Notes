@@ -14,9 +14,8 @@ class Q83Fibonacci
 					continue;
 				}
 				System.out.print((a+b)+" ");
-				int temp = a; 
-				a = b ; // 0(1)
-				b = temp+b; // 0+1(1)
+				b = a+b;
+				a = b-a;
 		}
 	}
 }

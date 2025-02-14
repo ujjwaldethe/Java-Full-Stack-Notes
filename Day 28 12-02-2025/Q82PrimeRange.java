@@ -5,7 +5,6 @@ class Q82PrimeRange
 	{
 		System.out.print("Enter Range : ");
 		int num = new Scanner(System.in).nextInt();
-		int count = 0;
 		for(int i=2;i<=num;i++) 
 		{
 			

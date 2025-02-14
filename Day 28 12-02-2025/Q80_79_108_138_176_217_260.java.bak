@@ -24,7 +24,7 @@ class Q80_79_108_138_176_217_260
 			}
 			if(flag)
 			{
-				System.out.println(prime);
+				System.out.println(res);
 				res+=prime;
 				prime++;
 			}

@@ -5,35 +5,75 @@ import java.io.File;
 import java.io.IOException;
 
 public class ImageToConsole {
-    public static void main(String[] args) {
-        try {
-            // Load the image
-            File file = new File("eagle.jpg");
-            BufferedImage image = ImageIO.read(file);
-            
-            // Resize if needed
-            int width = image.getWidth() / 4;  // Adjust scale for console
-            int height = image.getHeight() / 4;
-            
-            // Loop through pixels
-            for (int y = 0; y < height; y++) {
-                for (int x = 0; x < width; x++) {
-                    // Get pixel color
-                    int pixel = image.getRGB(x * 4, y * 4);  // Scaled for resizing
-                    Color color = new Color(pixel, true);
-                    
-                    // Convert to grayscale
-                    int gray = (color.getRed() + color.getGreen() + color.getBlue()) / 3;
-                    
-                    // Choose character based on brightness
-                    char ch = gray < 128 ? '*' : ' ';
-                    
-                    System.out.print(ch);
-                }
-                System.out.println();
+    public static void main(String[] args) throws Exception {
+        int c = 1, count = 1;
+        final int CONSOLE_WIDTH = 80; // Adjust based on your console size
+
+        while (true) {
+            // Clear console
+            if (System.getProperty("os.name").contains("Windows")) {
+                new ProcessBuilder("cmd", "/c", "cls").inheritIO().start().waitFor();
+            } else {
+                System.out.print("\033[H\033[2J"); // Works on Unix-based systems
+                System.out.flush();
             }
-        } catch (IOException e) {
-            e.printStackTrace();
+
+            Thread.sleep(1000);
+
+            if (count > 8) {
+                c = 1;
+                count = 1;
+            }
+
+            String colorChanging = "\u001B[3" + c + "m";
+            
+            try {
+                // Load the image
+                File file = new File("maharaj1.jpg");
+                if (!file.exists()) {
+                    System.out.println("Image file not found!");
+                    return;
+                }
+                BufferedImage image = ImageIO.read(file);
+
+                // Resize scaling
+                int scale = 4;
+                int width = image.getWidth() / scale;
+                int height = image.getHeight() / scale;
+
+                // Calculate left padding for centering
+                int leftPadding = (CONSOLE_WIDTH - width) / 2;
+                if (leftPadding < 0) leftPadding = 0; // Avoid negative padding
+
+                // Loop through pixels
+                for (int y = 0; y < height; y++) {
+                    System.out.println(); // New line spacing
+                    
+                    // Print left padding spaces
+                    System.out.print(" ".repeat(leftPadding));
+
+                    for (int x = 0; x < width; x++) {
+                        int pixel = image.getRGB(x * scale, y * scale);
+                        Color color = new Color(pixel, true);
+
+                        // Convert to grayscale
+                        int gray = (color.getRed() + color.getGreen() + color.getBlue()) / 3;
+
+                        // Choose ASCII character based on brightness
+                        char ch = gray < 128 ? ' ' : '*';
+
+                        // Apply color and print
+                        System.out.print(colorChanging + ch);
+                    }
+                    System.out.println("\u001B[0m"); // Reset color
+                }
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+
+            count++;
+            c++;
+            Thread.sleep(2000);
         }
     }
 }

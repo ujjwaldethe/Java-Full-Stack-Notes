@@ -6,7 +6,7 @@ class Q80_79_108_138_176_217_260
 		System.out.println("Enter Range : ");
 		int range = new Scanner(System.in).nextInt();
 		int res = 79;
-		int prime = 28 ;
+		int prime = 29 ;
 		boolean flag = true;
 		
 		for(int i=0 ; i < range ; i++)

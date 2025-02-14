@@ -8,7 +8,6 @@ class Q73PasswordProgram
 		int seconds = 5000;
 		int attempts = 3;
 	
-		int attemps = 3 ;
 		do
 		{
 				System.out.println("Enter Pin : ");
