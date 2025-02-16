@@ -17,9 +17,6 @@ public class ImageToConsole {
                 System.out.print("\033[H\033[2J"); // Works on Unix-based systems
                 System.out.flush();
             }
-
-            Thread.sleep(1000); // Reduced delay for testing
-
             if (count > 8) {
                 c = 1;
                 count = 1;
@@ -29,7 +26,7 @@ public class ImageToConsole {
             
             try {
                 // Load the image
-                File file = new File("maharaj1.jpg");
+                File file = new File("elephant.jpg");
                 if (!file.exists()) {
                     System.out.println("Image file not found!");
                     return;
@@ -40,40 +37,33 @@ public class ImageToConsole {
                 int scale = 4;
                 int width = image.getWidth() / scale;
                 int height = image.getHeight() / scale;
+						for (int y = 0; y < height; y++) {
+    // Add a white line effect at the start of each row
+    System.out.print("                                                                                                    "+"                                                                                                                                                                "); // Vertical white separator
+    
+    for (int x = 0; x < width; x++) {
+        int pixel = image.getRGB(x * scale, y * scale);
+        Color color = new Color(pixel, true);
 
-                // Calculate left padding for centering
-                int leftPadding = (CONSOLE_WIDTH - width) / 2;
-                if (leftPadding < 0) leftPadding = 0; // Avoid negative padding
+        // Convert to grayscale
+        int gray = (color.getRed() + color.getGreen() + color.getBlue()) / 3;
 
-                // Loop through pixels
-                for (int y = 0; y < height; y++) {
-                    System.out.println(); // New line spacing
-                    
-                    // Print left padding spaces
-                    System.out.print(" ".repeat(leftPadding));
+        // Choose ASCII character based on brightness
+        String ch = gray < 128 ? " " : "*"; // Darker pixels are empty, lighter are '*'
 
-                    for (int x = 0; x < width; x++) {
-                        int pixel = image.getRGB(x * scale, y * scale);
-                        Color color = new Color(pixel, true);
+        // Apply color and print
+        System.out.print(colorChanging + ch);
+    }
+    System.out.print("\u001B[0m\n"); // Reset color and move to a new line
+}
 
-                        // Convert to grayscale
-                        int gray = (color.getRed() + color.getGreen() + color.getBlue()) / 3;
-
-                        // Choose ASCII character based on brightness
-                        char ch = gray < 128 ? ' ' : '*';
-
-                        // Apply color and print
-                        System.out.print(colorChanging + ch);
-                    }
-                    System.out.println("\u001B[0m"); // Reset color
-                }
             } catch (IOException e) {
                 e.printStackTrace();
             }
 
             count++;
             c++;
-            Thread.sleep(2000);
+            Thread.sleep(5000);
         }
     }
 }
