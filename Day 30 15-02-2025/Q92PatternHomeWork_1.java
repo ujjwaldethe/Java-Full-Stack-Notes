@@ -1,28 +1,32 @@
 class Q92PatternHomeWork_1 {
     public static void main(String[] args) {
-        int rows = 5; // Number of rows
-        int startOdd = 1; // Starting value for odd columns
-        int startEven = 9; // Starting value for even columns
-
-        for (int i = 1; i <= rows; i++) {
-            int currentOdd = startOdd; // Current value for odd columns
-            int currentEven = startEven; // Current value for even columns
-
+       
+		int n = 7,m=0,prev=0;
+        for (int i = 1; i <=5; i++) {
             for (int j = 1; j <= i; j++) {
-                if (j % 2 != 0) { // Odd columns
-                    System.out.print(currentOdd + " ");
-                    currentOdd++;
-                } else { // Even columns
-                    System.out.print(currentEven + " ");
-                    currentEven--;
-                }
-            }
-
-            // Adjust starting values for the next row
-            startOdd++;
-            startEven -= 2;
-
-            System.out.println(); // Move to the next line
+                if(j==1)
+				{
+					System.out.print(i+" ");
+				}
+				else if(j%2==0 && j==2 )
+				{
+					System.out.print(i+n+" ");
+					 prev = i +n;
+					 n=n-2;
+				}
+				else if(j%2!=0) 
+				{
+					System.out.print(prev+i-1+" ");
+				}
+			}
+            System.out.println(); 
         }
     }
 }
+/*
+1 
+2 9 
+3 8 10 
+4 7 11 14
+5 6 12 13 15
+*/

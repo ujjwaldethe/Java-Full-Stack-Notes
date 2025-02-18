@@ -1,4 +1,4 @@
-class Q88Pattern 
+class Q91Pattern 
 {
 	public static void main(String[] args) 
 	{
@@ -6,17 +6,13 @@ class Q88Pattern
 		for(int i = 1; i<=5 ;i++)
 		{
 			n=n+i;
-			int b = n;
 			for(int j = 1 ; j<=5 ; j++)
 			{
 				if(j<=i)
 				{
-					
-					System.out.print(n--+" ");
+					System.out.print(n-j+" ");
 				}
 			}
-			n=b;
-			
 			System.out.println();
 		}
 	}
