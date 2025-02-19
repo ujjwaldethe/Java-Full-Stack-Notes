@@ -300,6 +300,6 @@ Java-Full-Stack-Notes/
     ├── Q132DuckNumber.java
     ├── Q133SpyNumber.java
     ├── Q134PetersonNumber.java
-    └── QNotGiven_KeithNumber_7_4_2.j
+    └── QNotGiven_KeithNumber_7_4_2.java
 ```
 
