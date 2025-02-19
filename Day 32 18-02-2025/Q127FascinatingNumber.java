@@ -1,8 +1,11 @@
 import java.util.Scanner;
+/*
+Fascinating Number: When a number( 3 digits or more ) is multiplied by 2 and 3, and when both these products are concatenated with the original number, then it results in all digits from 1 to 9 present exactly once. 
+*/
 class Q127FascinatingNumber
 {
 	public static void main(String[] args) 
-	{
+	{ 
 		Scanner sc = new Scanner(System.in);	
 		System.out.print("\n Enter Number : ");
 		int n = sc.nextInt();

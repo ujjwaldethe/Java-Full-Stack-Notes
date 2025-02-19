@@ -1,4 +1,11 @@
 import java.util.Scanner;
+/*
+An automorphic number is a number whose square ends with the same digits as the number itself.
+Example:
+5² = 25 ? Ends in 5 
+76² = 5776 ? Ends in 76 
+376² = 141376 ? Ends in 376 
+*/
 class Q129AutomorphicNumber 
 {
 	public static void main(String[] args) 

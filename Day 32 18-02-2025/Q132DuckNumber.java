@@ -1,6 +1,17 @@
 import java.util.Scanner;
+/*
+A Duck Number is a positive number that contains at least one '0' in it, but the zero should not be at the beginning.
+
+Examples:
+3210 ? Contains 0 (Duck Number ?)
+705 ? Contains 0 (Duck Number ?)
+089 ? Starts with 0 (Not a Duck Number ?)
+123 ? No 0 (Not a Duck Number ?)
+*/
 class Q132DuckNumber
 {
+
+
 	public static void main(String[] args) 
 	{
 		System.out.println("Enter Number : ");

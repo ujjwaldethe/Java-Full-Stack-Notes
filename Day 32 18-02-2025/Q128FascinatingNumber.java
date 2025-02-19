@@ -17,7 +17,6 @@ class Q128FascinatingNumber
 					break x;
 				if(i==str.charAt(j))
 					count++;
-				
 			}
 			if(count!=1)
 				break;

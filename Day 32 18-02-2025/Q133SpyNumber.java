@@ -1,4 +1,19 @@
 import java.util.Scanner;
+
+/*
+A Spy Number is a number where the sum of its digits is equal to the product of its digits.
+Example:
+112 
+Sum = 1 + 1 + 2 = 4
+Product = 1 × 1 × 2 = 4 ? (Spy Number)
+123
+Sum = 1 + 2 + 3 = 6
+Product = 1 × 2 × 3 = 6 ? (Spy Number)
+125
+Sum = 1 + 2 + 5 = 8
+Product = 1 × 2 × 5 = 10 ? (Not a Spy Number)
+*/
+
 class Q133SpyNumber 
 {
 	public static void main(String[] args) 

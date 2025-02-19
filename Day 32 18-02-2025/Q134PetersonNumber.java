@@ -1,4 +1,16 @@
 import java.util.Scanner;
+/*
+A Peterson Number is a number where the sum of the factorial of its digits is equal to the number itself.  
+Example:  
+1. 145  
+   - (1! + 4! + 5!)  
+   - (1 + 24 + 120 = 145) ? (Peterson Number)  
+
+2. 125 
+   - (1! + 2! + 5!)  
+   - (1 + 2 + 120 = 123) ? (Not a Peterson Number)  
+
+*/
 class Q134PetersonNumber 
 {
 	public static void main(String[] args) 

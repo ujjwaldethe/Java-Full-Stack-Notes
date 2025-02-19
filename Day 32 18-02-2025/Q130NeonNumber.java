@@ -1,5 +1,12 @@
 import java.util.Scanner;
-import java.util.Scanner;
+
+/*
+A Neon Number is a number whose sum of the digits of its square is equal to the number itself.
+
+Example:
+9² = 81 ? 8 + 1 = 9 ? (Neon Number)
+12² = 144 ? 1 + 4 + 4 = 9 ? (Not a Neon Number)
+*/
 class Q130NeonNumber
 {
 	public static void main(String[] args) 

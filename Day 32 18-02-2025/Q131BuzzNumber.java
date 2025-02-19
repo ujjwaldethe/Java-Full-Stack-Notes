@@ -1,4 +1,16 @@
 import java.util.Scanner;
+
+/*
+A Buzz Number is a number that is either:
+
+Divisible by 7, or
+Ends with 7
+Examples:
+49 ? Divisible by 7 ? (Buzz Number)
+27 ? Ends with 7 ? (Buzz Number)
+35 ? Divisible by 7 ? (Buzz Number)
+23 ? Not divisible by 7, doesn't end with 7 ? (Not a Buzz Number)
+*/
 class Q131BuzzNumber 
 {
 	public static void main(String[] args) 
