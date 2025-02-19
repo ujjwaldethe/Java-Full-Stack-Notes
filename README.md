@@ -1,3 +1,21 @@
+
+---
+ 
+🛠 Technologies Used
+
+- **Programming Language**: Java
+- **IDE**: Notepad
+- **Version Control**: Git
+- **Platform**: Windows.
+
+---
+
+## 🚀 How to Use
+
+1. Clone this repository: 
+   ```bash 
+   git clone https://github.com/ujjwaldethe/Java-Full-Stack-Notes.git
+
 # Folder Structure
 
 ```
@@ -283,22 +301,5 @@ Java-Full-Stack-Notes/
     ├── Q133SpyNumber.java
     ├── Q134PetersonNumber.java
     └── QNotGiven_KeithNumber_7_4_2.j
-
 ```
 
----
- 
-🛠 Technologies Used
-
-- **Programming Language**: Java
-- **IDE**: Notepad
-- **Version Control**: Git
-- **Platform**: Windows.
-
----
-
-## 🚀 How to Use
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/ujjwaldethe/Java-Full-Stack-Notes.git
