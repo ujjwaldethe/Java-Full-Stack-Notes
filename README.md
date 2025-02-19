@@ -54,27 +54,27 @@ Java-Full-Stack-Notes/
 │   │-- DivisionEx.class
 │   │-- DivisionEx.java
 │   │-- DivisionEx.java.bak
-│-- Day 11 20-01-2025/
+│-- 📂 Day 11 20-01-2025/
 │   │-- Day 11 Concepts.pdf
 │   │-- Day 11 Programming.pdf
-│-- Day 12 21-01-2025/
-│   │-- Narrowing/
-│   │-- CharNarrowing.class
-│   │-- CharNarrowing.java
-│   │-- CharNarrowing.java.bak
-│   │-- DoubleNorrowing.class
-│   │-- DoubleNorrowing.java
-│   │-- DoubleNorrowing.java.bak
-│   │-- FloatNarrowing.class
-│   │-- FloatNarrowing.java
-│   │-- FloatNarrowing.java.bak
-│   │-- IntNarrowing.class
-│   │-- IntNarrowing.java
-│   │-- IntNarrowing.java.bak
-│   │-- LongNarrowing.class
-│   │-- LongNarrowing.java
-│   │-- LongNarrowing.java.bak
-│   │-- ShortNarrowing.java
+│-- 📂 Day 12 21-01-2025/
+│   │-- 📂 Narrowing/
+│   |---│-- CharNarrowing.class
+│   |---│-- CharNarrowing.java
+│   |---│-- CharNarrowing.java.bak
+│   |---│-- DoubleNorrowing.class
+│   |---│-- DoubleNorrowing.java
+│   |---│-- DoubleNorrowing.java.bak
+│   |---│-- FloatNarrowing.class
+│   |---│-- FloatNarrowing.java
+│   |---│-- FloatNarrowing.java.bak
+│   |---│-- IntNarrowing.class
+│   |---│-- IntNarrowing.java
+│   |---│-- IntNarrowing.java.bak
+│   |---│-- LongNarrowing.class
+│   |---│-- LongNarrowing.java
+│   |---│-- LongNarrowing.java.bak
+│   |---│-- ShortNarrowing.java
 │   │-- Day 12 Programming.pdf
 │   │-- Day 12 concepts.pdf
 │   │-- Q01SwappingEx1.java
