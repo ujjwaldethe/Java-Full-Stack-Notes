@@ -290,7 +290,8 @@ Java-Full-Stack-Notes/
 │   ├── Q93PatternHomework2.java
 │   └── Q94To105Pattern.java
 ├── 📂 Day 31 17-02-2025/
-│   └── Q106To116Patterns.java
+│   |── Q106To116Patterns.java
+|   ├── Q117To126Patterns.java
 └── 📂 Day 32 18-02-2025/
     ├── Q127FascinatingNumber.java
     ├── Q128FascinatingNumber.java
