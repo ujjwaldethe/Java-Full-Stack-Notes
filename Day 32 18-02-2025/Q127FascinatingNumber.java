@@ -1,9 +1,9 @@
 import java.util.Scanner;
-class Q127FascinatingNumber //one digits must be one times
+class Q127FascinatingNumber
 {
 	public static void main(String[] args) 
 	{
-		Scanner sc = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);	
 		System.out.print("\n Enter Number : ");
 		int n = sc.nextInt();
 		int temp = n ; 
@@ -20,26 +20,24 @@ class Q127FascinatingNumber //one digits must be one times
 			num +=n*i;
 		}
 		x:
-		for(int i = 0 ; i <= 9 ; i++)
+		for(int i = 1 ; i <= 9 ; i++)
 		{
 			count=0;
 			copy = num;
 			while(copy>0)
 			{
+				if((copy%10)==0)
+					break x;
 				if(i==(copy%10))
 					count++;
-				if(count>1)
-					break x;
 				copy/=10;
 			}
+			if(count!=1)
+				break;
 		}
-		if(count>1)
-		{
+		if(count!=1)
 			System.out.println("\nNot Fascinating Number "+num);
-		}
 		else
-		{
 			System.out.println("\nFascinating Number "+num);
-		}
 	}
 }
