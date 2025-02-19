@@ -114,19 +114,176 @@ Java-Full-Stack-Notes/
 │   │-- Day 18 Programming.pdf
 │-- Day 19 30_01_2025/
 │   │-- Day 19 Programming.pdf
-│-- Day 20 31_01_2025/
-│-- Day 21 03-02-2025/
-│-- Day 22 04-02-2025/
-│-- Day 23 05-02-2025/
-│-- Day 24 07-02-2025/
-│-- Day 25 08-02-2025/
-│-- Day 26 10-02-2025/
-│-- Day 27 11-02-2025/
-│-- Day 28 12-02-2025/
-│-- Day 29 13-02-2025/
-│-- Day 30 15-02-2025/
-│-- Day 31 17-02-2025/
-│-- Day 32 18-02-2025/
+├── Day 20 31_01_2025/
+│   ├── Day 20 Programming.pdf
+│   ├── Q34StonePaperScissor.class
+│   ├── Q34StonePaperScissor.java
+│   └── Q34StonePaperScissor.java.bak
+├── Day 21 03-02-2025/
+│   ├── Day 21 Concepts 03-02-2025.pdf
+│   ├── Q35LeapYear.java
+│   ├── Q35LeapYear.java.bak
+│   ├── Q36TaxSlab.java
+│   ├── Q36TaxSlab.java.bak
+│   ├── Q37VowelConsonant.java
+│   ├── Q37VowelConsonant.java.bak
+│   ├── Q38While1To100ConceptClass.class
+│   ├── Q38While1To100ConceptClass.java
+│   ├── Q38While1To100ConceptClass.java.bak
+│   ├── Q39WhileAToZConceptClass.class
+│   ├── Q39WhileAToZConceptClass.java
+│   └── Q39WhileAToZConceptClass.java.bak
+├── Day 22 04-02-2025/
+│   ├── Day 22 Programming.pdf
+│   ├── Number1To10.class
+│   ├── Q35AToZ .java
+│   ├── Q35AToZ.class
+│   ├── Q35AToZ.java
+│   ├── Q36ZeroTONineDigits.java
+│   ├── Q36aToz.class
+│   ├── Q36aToz.java
+│   ├── Q37Number1To10.class
+│   ├── Q37Number1To10.java
+│   ├── Q37Number1To10.java.bak
+│   ├── Q38Ascii.class
+│   ├── Q38Ascii.java
+│   ├── Q39Table.class
+│   ├── Q39Table.java
+│   ├── Q40Characters.class
+│   ├── Q40Characters.java
+│   ├── Q40Characters.java.bak
+│   ├── Q41UserName.class
+│   ├── Q41UserName.java
+│   ├── Q42EvenFrom1To100.class
+│   ├── Q42EvenFrom1To100.java
+│   ├── Q43OddFrom100To1.class
+│   ├── Q43OddFrom100To1.java
+│   ├── Q43OddFrom100To1.java.bak
+│   ├── Q44VowelFromUserInput.class
+│   ├── Q44VowelFromUserInput.java
+│   ├── Q44VowelFromUserInput.java.bak
+│   ├── ZToA.class
+│   └── ZToA.java
+├── Day 23 05-02-2025/
+│   ├── PractiseReverseNumberUsingLoops.java
+│   ├── Q45SumOfDigits.java
+│   ├── Q46SumOfEvenOddDigits.java
+│   ├── Q47BankingApp.class
+│   ├── Q47BankingApp.java
+│   ├── Q47BankingApp.java.bak
+│   └── Q48ProductOfNumber.java
+├── Day 24 07-02-2025/
+│   ├── Q49Factorial.java
+│   ├── Q50FactorialSumOfDigits.java
+│   ├── Q51FactorialEvenOddDigits.java
+│   ├── Q52FactorsDigits.java
+│   ├── Q53PerfectSqaureRoot.java
+│   ├── Q54SumOfFactorsOfNumber.java
+│   ├── Q55PrimeNumber.java
+│   └── Q56PowerOfNumber.java
+├── Day 25 08-02-2025/
+│   ├── Q57ReverseNumLeetCode.java
+│   ├── Q58PalindroneNumber.class
+│   ├── Q58PalindroneNumber.java
+│   ├── Q58PalindroneNumber.java.bak
+│   ├── Q59ReverseStringLeetCode.java
+│   ├── Q59ReverseStringLeetCode.java.bak
+│   ├── Q60PalindroneString.java
+│   ├── Q60PalindroneString.java.bak
+│   ├── Q61NumberToWord.java
+│   ├── Q62PrimeFactorial.class
+│   ├── Q62PrimeFactorial.java
+│   ├── Q62PrimeFactorial.java.bak
+│   ├── Q63EvenOddNumberUsingLength.class
+│   ├── Q63EvenOddNumberUsingLength.java
+│   ├── Q63EvenOddNumberUsingLength.java.bak
+│   ├── Q64TemperatureConverter.class
+│   ├── Q64TemperatureConverter.java
+│   └── Q64TemperatureConverter.java.bak
+├── Day 26 10-02-2025/
+│   ├── Q65AndQ66HighestLowestDigit.java
+│   ├── Q67GenerateRandom6Digit.java
+│   ├── Q67GenerateRandom6Digit.java.bak
+│   ├── Q68FrequencyOfDigits.class
+│   ├── Q68FrequencyOfDigits.java
+│   ├── Q68FrequencyOfDigits.java.bak
+│   ├── Q69AndQ70HighestRepeatingDigit.java
+│   ├── Q69AndQ70HighestRepeatingDigit.java.bak
+│   ├── TestingFromRightToLeftAccessOfHighestAndLowestRepeatingDigit.class
+│   ├── TestingFromRightToLeftAccessOfHighestAndLowestRepeatingDigit.java
+│   └── TestingFromRightToLeftAccessOfHighestAndLowestRepeatingDigit.java.bak
+├── Day 27 11-02-2025/
+│   ├── Q71MakeNumberPrime.java
+│   ├── Q71MakeNumberPrime.java.bak
+│   ├── Q72PrimePlusAndMinusPrint.class
+│   ├── Q72PrimePlusAndMinusPrint.java
+│   ├── Q72PrimePlusAndMinusPrint.java.bak
+│   ├── Q73PasswordProgram.class
+│   ├── Q73PasswordProgram.java
+│   ├── Q73PasswordProgram.java.bak
+│   ├── Q74_AA_BA_AZ_Program.class
+│   ├── Q74_AA_BA_AZ_Program.java
+│   ├── Q74_AA_BA_AZ_Program.java.bak
+│   ├── Q75EmpirpOrNot.java
+│   ├── Q75EmpirpOrNot.java.bak
+│   ├── TestA_AA_STRING.java
+│   └── TestA_AA_STRING.java.bak
+├── Day 28 12-02-2025/
+│   ├── 1724767967648.jpeg
+│   ├── ImageToConsole.class
+│   ├── ImageToConsole.java
+│   ├── ImageToConsole.java.bak
+│   ├── PASSPORT.JPG
+│   ├── Q76GoodPrime.class
+│   ├── Q76GoodPrime.java
+│   ├── Q76GoodPrime.java.bak
+│   ├── Q77_144_2197_197_3375_256.java
+│   ├── Q77_144_2197_197_3375_256.java.bak
+│   ├── Q78_2_6_22_278_65814.java
+│   ├── Q78_2_6_22_278_65814.java.bak
+│   ├── Q79_10_30_68_130_222.java
+│   ├── Q79_10_30_68_130_222.java.bak
+│   ├── Q80_79_108_138_176_217_260.java
+│   ├── Q80_79_108_138_176_217_260.java.bak
+│   ├── Q81NumberSeries_1_3_9_33_153_873.java
+│   ├── Q81NumberSeries_1_3_9_33_153_873.java.bak
+│   ├── Q82PrimeRange.java
+│   ├── Q82PrimeRange.java.bak
+│   ├── Q83Fibonacci.java
+│   ├── Q83Fibonacci.java.bak
+│   ├── eagle.jpg
+│   ├── elephant.jpg
+│   ├── maharaj.jpg
+│   └── maharaj1.jpg
+├── Day 29 13-02-2025/
+│   ├── Q84ArmStrong.java
+│   ├── Q84ArmStrong.java.bak
+│   ├── Q85Danger.java
+│   ├── Q85Danger.java.bak
+│   ├── Q85DangerAnotherLogic.java
+│   └── Q86Krish.java
+├── Day 30 15-02-2025/
+│   ├── Q87DogBarkProgram.java
+│   ├── Q88Company.java
+│   ├── Q89TechNumber.java
+│   ├── Q90ISBNNumber.java
+│   ├── Q91Pattern.java
+│   ├── Q92PatternHomeWork_1.java
+│   ├── Q93PatternHomework2.java
+│   └── Q94To105Pattern.java
+├── Day 31 17-02-2025/
+│   └── Q106To116Patterns.java
+└── Day 32 18-02-2025/
+    ├── Q127FascinatingNumber.java
+    ├── Q128FascinatingNumber.java
+    ├── Q129AutomorphicNumber.java
+    ├── Q130NeonNumber.java
+    ├── Q131BuzzNumber.java
+    ├── Q132DuckNumber.java
+    ├── Q133SpyNumber.java
+    ├── Q134PetersonNumber.java
+    └── QNotGiven_KeithNumber_7_4_2.j
+
 ```
 
 ---
