@@ -13,12 +13,15 @@ class Q128FascinatingNumber
 			count=0;
 			for(int j =0 ; j<str.length();j++)
 			{
+				if(str.charAt(j)=='0')
+					break x;
 				if(i==str.charAt(j))
 					count++;
-				if(count>1)
-					break x;
+				
 			}
+			if(count!=1)
+				break;
 		}
-		System.out.println((count<=1)?(str+ " Is Fascinating Number "):(str+ "Is Not A Fascinating Number "));
+		System.out.println((count!=1)?(str+ " Is Fascinating Number "):(str+ "Is Not A Fascinating Number "));
 	}
 }
