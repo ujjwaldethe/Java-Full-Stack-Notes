@@ -59,22 +59,22 @@ Java-Full-Stack-Notes/
 │   │-- Day 11 Programming.pdf
 │-- 📂 Day 12 21-01-2025/
 │   │-- 📂 Narrowing/
-│   |---│-- CharNarrowing.class
-│   |---│-- CharNarrowing.java
-│   |---│-- CharNarrowing.java.bak
-│   |---│-- DoubleNorrowing.class
-│   |---│-- DoubleNorrowing.java
-│   |---│-- DoubleNorrowing.java.bak
-│   |---│-- FloatNarrowing.class
-│   |---│-- FloatNarrowing.java
-│   |---│-- FloatNarrowing.java.bak
-│   |---│-- IntNarrowing.class
-│   |---│-- IntNarrowing.java
-│   |---│-- IntNarrowing.java.bak
-│   |---│-- LongNarrowing.class
-│   |---│-- LongNarrowing.java
-│   |---│-- LongNarrowing.java.bak
-│   |---│-- ShortNarrowing.java
+│       │-- CharNarrowing.class
+│       │-- CharNarrowing.java
+│       │-- CharNarrowing.java.bak
+│       |-- DoubleNorrowing.class
+│       │-- DoubleNorrowing.java
+│       │-- DoubleNorrowing.java.bak
+│       │-- FloatNarrowing.class
+│       │-- FloatNarrowing.java
+│       │-- FloatNarrowing.java.bak
+│       │-- IntNarrowing.class
+│       │-- IntNarrowing.java
+│       │-- IntNarrowing.java.bak
+│       │-- LongNarrowing.class
+│       │-- LongNarrowing.java
+│       │-- LongNarrowing.java.bak
+│       │-- ShortNarrowing.java
 │   │-- Day 12 Programming.pdf
 │   │-- Day 12 concepts.pdf
 │   │-- Q01SwappingEx1.java
@@ -92,7 +92,7 @@ Java-Full-Stack-Notes/
 │   │-- Q5Census.class
 │   │-- Q5Census.java
 │   │-- Q5Census.java.bak
-│-- Day 13 22-01-2025/
+│-- 📂 Day 13 22-01-2025/
 │   │-- Day 13 Concepts.pdf
 │   │-- Day 13 Programming.pdf
 │   │-- Q14ConditionalOp.java
@@ -101,7 +101,7 @@ Java-Full-Stack-Notes/
 │   │-- Q17SumOfDigitsWithoutLoop.java
 │   │-- Q18ProductOfDigitsWithoutLoop.class
 │   │-- Q18ProductOfDigitsWithoutLoop.java
-│-- Day 14 23-01-2025/
+│-- 📂 Day 14 23-01-2025/
 │   │-- Day 14 Concepts.pdf
 │   │-- Day 14 Programming.pdf
 │   │-- Q19PrimeNumber.class
@@ -110,7 +110,7 @@ Java-Full-Stack-Notes/
 │   │-- Q20BmiCalculator.class
 │   │-- Q20BmiCalculator.java
 │   │-- Q20BmiCalculator.java.bak
-│-- Day 15 24_01_2025/
+│-- 📂 Day 15 24_01_2025/
 │   │-- Day 15 Concepts.pdf
 │   │-- Day 15 Programming.pdf
 │   │-- Q21UpperCaseRangeCheck.java
@@ -122,22 +122,22 @@ Java-Full-Stack-Notes/
 │   │-- Q26Vowel.java
 │   │-- Q27Deloitte.class
 │   │-- Q27Deloitte.java
-│-- Day 16 25_01_2025/
+│-- 📂 Day 16 25_01_2025/
 │   │-- Day 16 Concepts.pdf
 │   │-- Day 16 Programming.pdf
-│-- Day 17 27_01_2025/
+│-- 📂 Day 17 27_01_2025/
 │   │-- Day 17 Concept.pdf
 │   │-- Day 17 Programming.pdf
-│-- Day 18 28_01_2025/
+│-- 📂 Day 18 28_01_2025/
 │   │-- Day 18 Programming.pdf
-│-- Day 19 30_01_2025/
+│-- 📂 Day 19 30_01_2025/
 │   │-- Day 19 Programming.pdf
-├── Day 20 31_01_2025/
+├── 📂 Day 20 31_01_2025/
 │   ├── Day 20 Programming.pdf
 │   ├── Q34StonePaperScissor.class
 │   ├── Q34StonePaperScissor.java
 │   └── Q34StonePaperScissor.java.bak
-├── Day 21 03-02-2025/
+├── 📂 Day 21 03-02-2025/
 │   ├── Day 21 Concepts 03-02-2025.pdf
 │   ├── Q35LeapYear.java
 │   ├── Q35LeapYear.java.bak
@@ -151,7 +151,7 @@ Java-Full-Stack-Notes/
 │   ├── Q39WhileAToZConceptClass.class
 │   ├── Q39WhileAToZConceptClass.java
 │   └── Q39WhileAToZConceptClass.java.bak
-├── Day 22 04-02-2025/
+├── 📂 Day 22 04-02-2025/
 │   ├── Day 22 Programming.pdf
 │   ├── Number1To10.class
 │   ├── Q35AToZ .java
@@ -182,7 +182,7 @@ Java-Full-Stack-Notes/
 │   ├── Q44VowelFromUserInput.java.bak
 │   ├── ZToA.class
 │   └── ZToA.java
-├── Day 23 05-02-2025/
+├── 📂 Day 23 05-02-2025/
 │   ├── PractiseReverseNumberUsingLoops.java
 │   ├── Q45SumOfDigits.java
 │   ├── Q46SumOfEvenOddDigits.java
@@ -190,7 +190,7 @@ Java-Full-Stack-Notes/
 │   ├── Q47BankingApp.java
 │   ├── Q47BankingApp.java.bak
 │   └── Q48ProductOfNumber.java
-├── Day 24 07-02-2025/
+├── 📂 Day 24 07-02-2025/
 │   ├── Q49Factorial.java
 │   ├── Q50FactorialSumOfDigits.java
 │   ├── Q51FactorialEvenOddDigits.java
@@ -199,7 +199,7 @@ Java-Full-Stack-Notes/
 │   ├── Q54SumOfFactorsOfNumber.java
 │   ├── Q55PrimeNumber.java
 │   └── Q56PowerOfNumber.java
-├── Day 25 08-02-2025/
+├── 📂 Day 25 08-02-2025/
 │   ├── Q57ReverseNumLeetCode.java
 │   ├── Q58PalindroneNumber.class
 │   ├── Q58PalindroneNumber.java
@@ -218,7 +218,7 @@ Java-Full-Stack-Notes/
 │   ├── Q64TemperatureConverter.class
 │   ├── Q64TemperatureConverter.java
 │   └── Q64TemperatureConverter.java.bak
-├── Day 26 10-02-2025/
+├── 📂 Day 26 10-02-2025/
 │   ├── Q65AndQ66HighestLowestDigit.java
 │   ├── Q67GenerateRandom6Digit.java
 │   ├── Q67GenerateRandom6Digit.java.bak
@@ -230,7 +230,7 @@ Java-Full-Stack-Notes/
 │   ├── TestingFromRightToLeftAccessOfHighestAndLowestRepeatingDigit.class
 │   ├── TestingFromRightToLeftAccessOfHighestAndLowestRepeatingDigit.java
 │   └── TestingFromRightToLeftAccessOfHighestAndLowestRepeatingDigit.java.bak
-├── Day 27 11-02-2025/
+├── 📂 Day 27 11-02-2025/
 │   ├── Q71MakeNumberPrime.java
 │   ├── Q71MakeNumberPrime.java.bak
 │   ├── Q72PrimePlusAndMinusPrint.class
@@ -246,7 +246,7 @@ Java-Full-Stack-Notes/
 │   ├── Q75EmpirpOrNot.java.bak
 │   ├── TestA_AA_STRING.java
 │   └── TestA_AA_STRING.java.bak
-├── Day 28 12-02-2025/
+├── 📂 Day 28 12-02-2025/
 │   ├── 1724767967648.jpeg
 │   ├── ImageToConsole.class
 │   ├── ImageToConsole.java
@@ -273,14 +273,14 @@ Java-Full-Stack-Notes/
 │   ├── elephant.jpg
 │   ├── maharaj.jpg
 │   └── maharaj1.jpg
-├── Day 29 13-02-2025/
+├── 📂 Day 29 13-02-2025/
 │   ├── Q84ArmStrong.java
 │   ├── Q84ArmStrong.java.bak
 │   ├── Q85Danger.java
 │   ├── Q85Danger.java.bak
 │   ├── Q85DangerAnotherLogic.java
 │   └── Q86Krish.java
-├── Day 30 15-02-2025/
+├── 📂 Day 30 15-02-2025/
 │   ├── Q87DogBarkProgram.java
 │   ├── Q88Company.java
 │   ├── Q89TechNumber.java
@@ -289,9 +289,9 @@ Java-Full-Stack-Notes/
 │   ├── Q92PatternHomeWork_1.java
 │   ├── Q93PatternHomework2.java
 │   └── Q94To105Pattern.java
-├── Day 31 17-02-2025/
+├── 📂 Day 31 17-02-2025/
 │   └── Q106To116Patterns.java
-└── Day 32 18-02-2025/
+└── 📂 Day 32 18-02-2025/
     ├── Q127FascinatingNumber.java
     ├── Q128FascinatingNumber.java
     ├── Q129AutomorphicNumber.java
