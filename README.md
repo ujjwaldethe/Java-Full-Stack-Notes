@@ -16,38 +16,38 @@
    ```bash 
    git clone https://github.com/ujjwaldethe/Java-Full-Stack-Notes.git
 
-# Folder Structure
+# 📂 Folder Structure
 
 ```
 Java-Full-Stack-Notes/
-│-- Day 01 07-01-2025/
+│-- 📂 Day 01 07-01-2025/
 │   │-- Day1.pdf
 │   │-- New Text Document.txt
-│-- Day 02 08-01-2025/
+│-- 📂 Day 02 08-01-2025/
 │   │-- Day2.pdf
 │   │-- New Text Document.txt
-│-- Day 03 09-01-2025/
+│-- 📂 Day 03 09-01-2025/
 │   │-- Day3.pdf
 │   │-- New Text Document.txt
-│-- Day 04 10-01-2025/
+│-- 📂 Day 04 10-01-2025/
 │   │-- Day4.pdf
-│-- Day 05 11-01-2025/
+│-- 📂 Day 05 11-01-2025/
 │   │-- Day5.pdf
 │   │-- Program1.class
 │   │-- Program1.java
 │   │-- SelfInfo.class
 │   │-- SelfInfo.java
-│-- Day 06 13-01-2025/
+│-- 📂 Day 06 13-01-2025/
 │   │-- Day 6.pdf
-│-- Day 07 14-01-2025/
+│-- 📂 Day 07 14-01-2025/
 │   │-- Day 7.pdf
-│-- Day 08 15-01-2025/
+│-- 📂 Day 08 15-01-2025/
 │   │-- Day 8.pdf
-│-- Day 09 17-01-2025/
+│-- 📂 Day 09 17-01-2025/
 │   │-- ArithmetixEx.java
 │   │-- Day 9 Programming.pdf
 │   │-- Day 9.pdf
-│-- Day 10 18-01-2025/
+│-- 📂 Day 10 18-01-2025/
 │   │-- Widening/
 │   │-- Day 10 Concepts.pdf
 │   │-- Day 10 Programming.pdf
