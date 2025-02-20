@@ -1,25 +1,32 @@
 class Q92PatternHomeWork_1 {
     public static void main(String[] args) {
        
-		int n = 7,m=0,prev=0;
+		int odd= 9,even=-2,prev=0;
         for (int i = 1; i <=5; i++) {
-            for (int j = 1; j <= i; j++) {
-                if(j==1)
+			System.out.print(i+" ");
+			prev = i ;
+            for (int j = 2; j <= i; j++) {
+				
+				if(j%2==0)
 				{
-					System.out.print(i+" ");
+					prev = prev+odd;
+					System.out.print(prev+" ");
+					
 				}
-				else if(j%2==0 && j==2 )
+				else if(j%2!=0 && j<5) 
 				{
-					System.out.print(i+n+" ");
-					 prev = i +n;
-					 n=n-2;
+					prev = prev + even;	
+					System.out.print(prev+" ");
 				}
-				else if(j%2!=0) 
+				else
 				{
-					System.out.print(prev+i-1+" ");
+					System.out.print((prev+(j/2))+" ");
 				}
 			}
             System.out.println(); 
+			odd-=2;
+			even+=2;
+			
         }
     }
 }
