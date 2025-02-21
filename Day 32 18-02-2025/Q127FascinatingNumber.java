@@ -17,7 +17,7 @@ class Q127FascinatingNumber
 			temp/=10;
 			len*=10;
 		}
-		for(int i = 1; i <= count ; i++)
+		for(int i = 1; i <=count ; i++)
 		{	
 			num *= len;
 			num +=n*i;
@@ -27,6 +27,7 @@ class Q127FascinatingNumber
 		{
 			count=0;
 			copy = num;
+			
 			while(copy>0)
 			{
 				if((copy%10)==0)
