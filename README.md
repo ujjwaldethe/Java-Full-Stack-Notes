@@ -292,15 +292,25 @@ Java-Full-Stack-Notes/
 ├── 📂 Day 31 17-02-2025/
 │   |── Q106To116Patterns.java
 |   ├── Q117To126Patterns.java
-└── 📂 Day 32 18-02-2025/
-    ├── Q127FascinatingNumber.java
-    ├── Q128FascinatingNumber.java
-    ├── Q129AutomorphicNumber.java
-    ├── Q130NeonNumber.java
-    ├── Q131BuzzNumber.java
-    ├── Q132DuckNumber.java
-    ├── Q133SpyNumber.java
-    ├── Q134PetersonNumber.java
-    └── QNotGiven_KeithNumber_7_4_2.java
+|── 📂 Day 32 18-02-2025/
+|   ├── Q127FascinatingNumber.java
+|   ├── Q128FascinatingNumber.java
+|   ├── Q129AutomorphicNumber.java
+|   ├── Q130NeonNumber.java
+|   ├── Q131BuzzNumber.java
+|   ├── Q132DuckNumber.java
+|   ├── Q133SpyNumber.java
+|   ├── Q134PetersonNumber.java
+|   └── Q134SunnyNumber.java
+|── 📂 Day 33 20-02-2025/
+|   ├── Q135Keith_Number_7_4_2.java
+│   ├── Q136DecimalToBinaryWithoutUsingString.java
+│   ├── Q136_2_Q136DecimalToBinaryUsingString.java
+│   ├── Q137_3_Q136DecimalToBinaryUsingStringMethod.java
+│   ├── Q138EvilNumber.java
+│   ├── Q139CheckIncreasingOrderOfNumber.java
+│   ├── Q140CheckDecreasingOrderOfNumber.java
+│   ├── Q141BouncyNumber.java
+│   ├── Q142BinaryToDecimal.java
 ```
 
