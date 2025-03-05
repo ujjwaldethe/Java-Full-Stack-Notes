@@ -312,5 +312,9 @@ Java-Full-Stack-Notes/
 │   ├── Q140CheckDecreasingOrderOfNumber.java
 │   ├── Q141BouncyNumber.java
 │   ├── Q142BinaryToDecimal.java
+|── 📂 Day 34 22-02-2025
+│   ├── Q143_MockTest.java
+│   ├── Q144_BreakLabel.java
+│   ├── Q145_ContinueLabel.java
 ```
 
