@@ -1,4 +1,4 @@
-class RecursivePowerNum 
+class Q159RecursivePowerNum 
 {
 	public static void main(String[] args) 
 	{

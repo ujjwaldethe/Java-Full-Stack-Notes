@@ -1,4 +1,4 @@
-class RecursiveFibonacci
+class Q160RecursiveFibonacci
 {
 	public static void main(String[] args) 
 	{

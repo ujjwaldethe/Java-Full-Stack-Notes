@@ -1,4 +1,4 @@
-class RecursivePrime 
+class Q161RecursivePrime 
 {
 	public static void main(String[] args) 
 	{

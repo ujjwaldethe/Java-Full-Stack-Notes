@@ -1,4 +1,4 @@
-class RecursiveFact 
+class Q158RecursiveFact 
 {
 	public static void main(String[] args) 
 	{

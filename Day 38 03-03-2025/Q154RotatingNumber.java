@@ -1,4 +1,4 @@
-class RotatingNumber 
+class Q154RotatingNumber 
 {
 	public static void main(String[] args) 
 	{

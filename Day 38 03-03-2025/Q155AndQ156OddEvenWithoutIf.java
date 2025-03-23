@@ -1,4 +1,4 @@
-class OddEvenWithoutIf 
+class Q155AndQ156OddEvenWithoutIf 
 {
 	public static void main(String[] args) 
 	{

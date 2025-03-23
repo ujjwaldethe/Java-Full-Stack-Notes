@@ -1,4 +1,4 @@
-class RecursivePalindrone 
+class Q163RecursivePalindrone 
 {
 	public static void main(String[] args) 
 	{

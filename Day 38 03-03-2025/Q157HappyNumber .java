@@ -1,4 +1,4 @@
-class HappyNumber 
+class Q157HappyNumber 
 {
 	public static void main(String[] args) 
 	{
