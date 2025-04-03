@@ -316,5 +316,86 @@ Java-Full-Stack-Notes/
 │   ├── Q143_MockTest.java
 │   ├── Q144_BreakLabel.java
 │   ├── Q145_ContinueLabel.java
+|── 📂 Day 35 27-02-2025  
+│   ├── Q146CurrencyConverter.class  
+│   ├── Q146CurrencyConverter.java  
+│   ├── Q146Restaurant.java  
+│   ├── absent.txt  
+|── 📂 Day 36 28-02-2025  
+│   ├── Q148Strong.java  
+│   ├── Q149PalindroneAndPrime.java  
+│   ├── absent.txt  
+|── 📂 Day 37 01-03-2025  
+│   ├── Q150RangeOfPrime.java  
+│   ├── Q151RangeOfArmStrong.class  
+│   ├── Q151RangeOfArmStrong.java  
+│   ├── Q152RotateNumber.class  
+│   ├── Q152RotateNumber.java  
+│   ├── Q153RotateAllPossibleRotationOfNumber.class  
+│   ├── Q153RotateAllPossibleRotationOfNumber.java  
+│   ├── absent.txt  
+|── 📂 Day 38 03-03-2025  
+│   ├── Q154RotatingNumber.java  
+│   ├── Q155AndQ156OddEvenWithoutIf.java  
+│   ├── Q157HappyNumber.java  
+│   ├── Q158RecursiveFact.java  
+│   ├── Q159RecursivePowerNum.java  
+|── 📂 Day 39 04-03-2025  
+│   ├── Q160RecursiveFibonacci.java  
+│   ├── Q161RecursivePrime.java  
+│   ├── Q162ReverseNumber.java  
+│   ├── Q163RecursivePalindrone.java  
+|── 📂 Day 40 19-03-2025  
+│   ├── Untitled1.txt  
+|── 📂 Day 44 20-03-2025  
+│   ├── no_progrrams_on_this_day.txt  
+|── 📂 Day 45 21-03-2025  
+│   ├── Q198BankingApp.class  
+│   ├── Q198BankingApp.java  
+│   ├── Q199BankingApp.class  
+│   ├── Q199BankingApp.java  
+│   ├── Q200AccesingStaticFromAnotherClass.class  
+│   ├── Q200AccesingStaticFromAnotherClass.java  
+│   ├── Q201Static$Var$With$Same$Local$And$Static$Var.class  
+│   ├── Q201Static$Var$With$Same$Local$And$Static$Var.java  
+│   ├── Q201StaticInitializers.class  
+│   ├── Q201StaticInitializers.java  
+│   ├── Q201_A_StaticInitializers.class  
+│   ├── Q201_A_StaticInitializers.java  
+|── 📂 Day 46 22-03-2025  
+│   ├── Exp1.class  
+│   ├── Exp1.java  
+│   ├── Exp2.class  
+│   ├── Exp2.java  
+│   ├── Q202StatBlock1.class  
+│   ├── Q202StatBlock1.java  
+│   ├── Q203StatBlock2.class  
+│   ├── Q203StatBlock2.java  
+|── 📂 Day 49 26-03-2025  
+│   ├── MobileDriver.class  
+│   ├── MobileDriver.java  
+│   ├── MobileProgram.class  
+│   ├── MobileProgram.java  
+│   ├── Q208Chair.class  
+|── 📂 Day 51 28-03-2025  
+│   ├── DBConnection.class  
+│   ├── DBConnection.java  
+│   ├── Q215Shoe.class  
+│   ├── Q215Shoe.java  
+│   ├── Q215ShoeDriver.class  
+│   ├── Q215ShoeDriver.java  
+│   ├── Q216MangoMethodChaining.class  
+│   ├── Q216MangoMethodChaining.java  
+│   ├── Q216MangoMethodChainingDriver.class  
+│   ├── Q216MangoMethodChainingDriver.java  
+│   ├── Server.class  
+│   ├── Server.java  
+│   ├── ServerDriver.class  
+│   ├── ServerDriver.java  
+|── 📂 Day 52 02-04-2025  
+│   ├── Q218StudentConstructor.class  
+│   ├── Q218StudentConstructor.java  
+│   ├── Q218StudentConstructorDriver.class  
+│   ├── Q218StudentConstructorDriver.java  
 ```
 
