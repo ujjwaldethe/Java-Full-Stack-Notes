@@ -17,10 +17,21 @@
    git clone https://github.com/ujjwaldethe/Java-Full-Stack-Notes.git
 ## 🚀 How to Compile And Run
 
-1. Clone this repository: 
+1. To Compile: 
    ```bash 
    javac filename.java
+1. To Run: 
+   ```bash 
    java filename
+
+## 🚀 How to Store Src And Bin
+
+1. To Compile: 
+   ```bash 
+   javac -d ../bin filename.java
+1. To Run: 
+   ```bash 
+   java -cp ../bin filename
 # 📂 Folder Structure
 
 ```
