@@ -15,7 +15,12 @@
 1. Clone this repository: 
    ```bash 
    git clone https://github.com/ujjwaldethe/Java-Full-Stack-Notes.git
+## 🚀 How to Compile And Run
 
+1. Clone this repository: 
+   ```bash 
+   javac filename.java
+   java filename
 # 📂 Folder Structure
 
 ```
