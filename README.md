@@ -1,4 +1,4 @@
-
+## Part 2 : https://github.com/ujjwaldethe/Java-Full-Stack-Notes-2
 ---
  
 🛠 Technologies Used
