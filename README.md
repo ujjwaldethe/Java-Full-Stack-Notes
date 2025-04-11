@@ -1,4 +1,4 @@
-## Part 2 : https://github.com/ujjwaldethe/Java-Full-Stack-Notes-2
+## Part 2 : [https://github.com/ujjwaldethe/Java-Full-Stack-Notes-2](https://github.com/ujjwaldethe/Java-Full-Stack-Notes-2/tree/main/Java_Full_Stack_Notes_2/src)
 ---
  
 🛠 Technologies Used
